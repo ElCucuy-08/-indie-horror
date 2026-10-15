@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/GitHub/-indie-horror/Not_Human_Madness/Packages/manifest.json
+    m_FilePath: "C:/\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B/-indie-horror/Not_Human_Madness/Packages/manifest.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639225857503768416
-    m_Hash: 3022306471
+      ticks: 639276839488161972
+    m_Hash: 2850702596
   m_LockFileStatus:
-    m_FilePath: D:/GitHub/-indie-horror/Not_Human_Madness/Packages/packages-lock.json
+    m_FilePath: "C:/\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B/-indie-horror/Not_Human_Madness/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639225857503859842
-    m_Hash: 314790538
+      ticks: 639276839840140745
+    m_Hash: 692673601
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/GitHub/-indie-horror/Not_Human_Madness/Packages
-m_EditorVersion: 2022.3.62f3 (96770f904ca7)
+m_ProjectPath: "C:/\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B/-indie-horror/Not_Human_Madness/Packages"
+m_EditorVersion: 6000.3.23f1 (09d2ecc7fb28)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@1.1.7
+- packageId: com.unity.ai.navigation@2.0.14
   testable: 0
   isDirectDependency: 1
-  version: 1.1.7
+  version: 2.0.14
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.ai.navigation@1.1.7
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.ai.navigation@134dd6a3b97b"
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -37,9 +37,11 @@ m_ResolvedPackages:
     url: 
   category: 
   type: 
-  description: High-level NavMesh components for building and using NavMeshes at
-    runtime and at edit time.
-  status: 0
+  description: The AI Navigation package contains high-level components that allow
+    you to use navmeshes to incorporate navigation and pathfinding in your game.
+    With this package installed you can build and use navmeshes at runtime and at
+    edit time, create dynamic obstacles, and use links to allow specific actions
+    (like jumping) as your characters navigate between navmeshes.
   errors: []
   versions:
     all:
@@ -69,10 +71,13 @@ m_ResolvedPackages:
     - 2.0.12
     - 2.0.13
     - 2.0.14
+    - 2.0.15
+    - 2.0.16
     compatible:
-    - 1.1.6
-    - 1.1.7
-    recommended: 1.1.7
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    recommended: 2.0.16
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -107,31 +112,71 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638869705370690000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
+  datePublishedTicks: 639196286252750000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 5a9f1f66840e719f7676c7c8925357450baae713
+    revision: 4ee1d652d94787ec330eb1706d9f63e885c9427f
     path: 
   unityLifecycle:
-    version: 1.1.6
+    version: 2.0.14
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.collab-proxy@2.12.4
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n* The samples now use the Input System
+    package (`com.unity.inputsystem`) for player input instead of the legacy Input
+    Manager.\n\n### Fixed\n* The **AI Navigation** preferences were not searchable
+    from the Preferences window search field.\n* Errors from NavigationOverlay logged
+    to the console when the NavMeshAgent was selected at the start of playmode.\n*
+    Fixed the options in the **AI Navigation** overlay overlapping each other when
+    the overlay was squished. The options panel is now wrapped in a scroll view.
+    ([UUM-133539](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-133539))"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 134dd6a3b97bb75be809e267fbcd9c5071579dd2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.14
+    minimumUnityVersion: 6000.0
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.collab-proxy@2.13.6
   testable: 0
   isDirectDependency: 1
-  version: 2.12.4
+  version: 2.13.6
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.collab-proxy@2.12.4
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.collab-proxy@4628d2ba6ea4"
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -144,7 +189,6 @@ m_ResolvedPackages:
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting https://unity.com/solutions/version-control
-  status: 0
   errors: []
   versions:
     all:
@@ -242,20 +286,8 @@ m_ResolvedPackages:
     - 2.13.5
     - 2.13.6
     compatible:
-    - 2.7.1
-    - 2.8.1
-    - 2.8.2
-    - 2.9.1
-    - 2.9.2
-    - 2.9.3
-    - 2.10.0
-    - 2.10.1
-    - 2.10.2
-    - 2.11.2
-    - 2.11.3
-    - 2.11.4
-    - 2.12.4
-    recommended: 2.7.1
+    - 2.13.6
+    recommended: 2.13.6
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -283,31 +315,97 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639093537468220000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.12/manual/index.html
+  datePublishedTicks: 639216032992590000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.13/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 4d24fbc0581e7fec760c9c8eef7517e1e1195f9e
+    revision: 97d7bcda7c50ada1e2c23816e56b8c315dcd6eae
     path: 
   unityLifecycle:
-    version: 2.7.1
+    version: 2.13.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.feature.development@1.0.1
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Added a built-in diff viewer for text,
+    images, and serialized Unity assets, available from Pending Changes, History,
+    changesets, and branches.\n- Added Unity AI Assistant integration to manage version
+    control, review changes, and query repository history using natural language.\n-
+    Added support for comparing two selected revisions from the History view.\n-
+    Added a details panel showing move origins/destinations and deleted item information.\n-
+    Added a toggle in the Changesets tab to show or hide changesets from hidden branches.\n\n###
+    Changed\n\n- Raised the minimum supported Editor to Unity 6000.0 (removed support
+    for Unity 2021.3 and 2022.3).\n- Moved the settings button in the Branch Explorer
+    to the bottom of the panel.\n- Visually separate the edit and remove buttons
+    in the attribute panel to avoid unwanted clicks.\n- Improved how version control
+    operations handle unsaved scene changes while in Play Mode.\n\n### Fixed\n\n-
+    Fixed the \"Choose Repository\" dialog title capitalization. (UUM-143766)\n-
+    Fixed Create Workspace not refreshing the Unity Version Control and Branch Explorer
+    windows. (UUM-142548)\n- Fixed buttons overlapping the tab divider in the Branch
+    Explorer options when resizing tabs. (UUM-142492)\n- Fixed the blank Default
+    and Result encoding dropdowns in the Unity Version Control settings. (UUM-142544)\n-
+    Fixed settings not being applied after you change them.\n- Fixed meta files of
+    parent folders not being included in Add operations.\n- Fixed an \"item with
+    the same key has already been added\" error.\n- Fixed an inconsistent object
+    error when reloading the Settings panel.\n- Fixed the attributes panel appearing
+    for a checkout changeset.\n- Fixed branch diffs being outdated when opened from
+    the branches view.\n- Fixed an error shown when using Diff with previous revision
+    on an item that has no previous revision.\n- Fixed the Differences window staying
+    open after the plugin was paused in the settings.\n- Fixed the Branch Explorer
+    not updating the Inspector diffs when the window gains focus.\n- Fixed branch
+    diffs being recalculated and losing the current selection when refocusing or
+    resizing the Unity Version Control window.\n- Fixed the Unity Version Control
+    window not opening after reinstalling the package.\n- Fixed the sign-in windows
+    refreshing only when the mouse moved.\n- Fixed being unable to set up Unity Version
+    Control from Project Settings > Version Control.\n- Fixed checked-out files being
+    lost when exiting the Editor.\n- Fixed auto-checkout not reporting an error when
+    it failed because of a lock.\n- Fixed domain-reload exception handling on Unity
+    6000.5 and newer.\n- Fixed uncontrolled dialogs being shown during batchmode."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 4628d2ba6ea45aaa16a8b78239d0f6f9c2176982
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.13.6
+    minimumUnityVersion: 6000.0
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.feature.development@1.0.2
   testable: 0
   isDirectDependency: 1
-  version: 1.0.1
+  version: 1.0.2
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.feature.development@767aadbc6eb7"
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -321,21 +419,18 @@ m_ResolvedPackages:
     feature set. Enable support for multiple integrated development environments
     (IDE) for editing your Unity code. Get access to development tools to help you
     test and analyze your project\u2019s performance."
-  status: 0
   errors: []
   versions:
     all:
-    - 1.0.1
+    - 1.0.2
     compatible:
-    - 1.0.1
-    recommended: 1.0.1
+    - 1.0.2
+    recommended: 1.0.2
     deprecated: []
   dependencies:
   - name: com.unity.ide.visualstudio
     version: default
   - name: com.unity.ide.rider
-    version: default
-  - name: com.unity.ide.vscode
     version: default
   - name: com.unity.editorcoroutines
     version: default
@@ -347,27 +442,25 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.22
+    version: 2.0.26
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.6.0
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.36
-  - name: com.unity.ide.vscode
-    version: 1.2.5
+    version: 3.0.40
   - name: com.unity.editorcoroutines
-    version: 1.0.0
+    version: 1.1.0
   - name: com.unity.performance.profile-analyzer
-    version: 1.2.3
+    version: 1.4.0
   - name: com.unity.testtools.codecoverage
-    version: 1.2.6
+    version: 1.3.0
   - name: com.unity.settings-manager
-    version: 2.1.0
+    version: 2.1.1
   keywords: []
   registry:
     id: main
@@ -377,7 +470,119 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"quickstart":"https://docs.unity3d.com/Documentation/Manual/DeveloperToolsFeature.html"}'
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 767aadbc6eb72681a4ca807c8fa248e0230a0cef
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.2
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.multiplayer.center@1.0.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.1
+  source: 2
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.multiplayer.center@f01f4ba8d00a"
+  assetPath: Packages/com.unity.multiplayer.center
+  name: com.unity.multiplayer.center
+  displayName: Multiplayer Center
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The multiplayer center provides a starting point to create multiplayer
+    games. It will recommend specific packages and enable you to easily access integrations,
+    samples and documentation.
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    compatible:
+    - 1.0.1
+    recommended: 1.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - Multiplayer
+  - Netcode
+  - Services
+  - Tools
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -393,15 +598,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.postprocessing@3.4.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: f01f4ba8d00afa4e957bddf0fcd1612a564401ff
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.1
+    minimumUnityVersion: 6000.0
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.postprocessing@3.5.4
   testable: 0
   isDirectDependency: 1
-  version: 3.4.0
+  version: 3.5.4
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.postprocessing@3.4.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.postprocessing@141166b789e3"
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -410,11 +643,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The post-processing stack (v2) comes with a collection of effects
     and image filters you can apply to your cameras to improve the visuals of your
     games.
-  status: 0
   errors: []
   versions:
     all:
@@ -461,17 +693,17 @@ m_ResolvedPackages:
     - 3.5.3
     - 3.5.4
     compatible:
-    - 3.4.0
-    - 3.5.0
-    - 3.5.1
-    - 3.5.3
     - 3.5.4
-    recommended: 3.4.0
+    recommended: 3.5.4
     deprecated: []
   dependencies:
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
   resolvedDependencies:
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
   keywords: []
@@ -483,236 +715,65 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638384897060000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.postprocessing@3.4/manual/index.html
+  datePublishedTicks: 639090112035760000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.postprocessing@3.5/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/Graphics.git
-    revision: 54427d2529ad1a9e8f31c693d751c6371f914e40
+    revision: 44d5ea80892ffc1c250444464671e892aa5edd70
     path: 
   unityLifecycle:
-    version: 3.4.0
+    version: 3.5.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.textmeshpro@3.0.7
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed serialization hierarchy errors\n-
+    Documentation updates"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 141166b789e3df4d2a816ea0dc441d73da8db3e6
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.5.4
+    minimumUnityVersion: 2019.4.19f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.timeline@1.8.13
   testable: 0
   isDirectDependency: 1
-  version: 3.0.7
+  version: 1.8.13
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.textmeshpro@3.0.7
-  assetPath: Packages/com.unity.textmeshpro
-  name: com.unity.textmeshpro
-  displayName: TextMeshPro
-  author:
-    name: 
-    email: 
-    url: 
-  category: Text Rendering
-  type: assets
-  description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
-    replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-    Powerful and
-    easy to use, TextMeshPro (also known as TMP) uses Advanced Text Rendering techniques
-    along with a set of custom shaders; delivering substantial visual quality improvements
-    while giving users incredible flexibility when it comes to text styling and texturing.
-
-
-    TextMeshPro
-    provides Improved Control over text formatting and layout with features like
-    character, word, line and paragraph spacing, kerning, justified text, Links,
-    over 30 Rich Text Tags available, support for Multi Font & Sprites, Custom Styles
-    and more.
-
-
-    Great performance. Since the geometry created by TextMeshPro
-    uses two triangles per character just like Unity''s text components, this improved
-    visual quality and flexibility comes at no additional performance cost.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.2
-    - 1.0.21
-    - 1.0.23
-    - 1.0.25
-    - 1.0.26
-    - 1.1.0
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.3.0-preview
-    - 1.3.0
-    - 1.4.0-preview.1b
-    - 1.4.0-preview.2a
-    - 1.4.0-preview.3a
-    - 1.4.0
-    - 1.4.1-preview.1
-    - 1.4.1
-    - 1.5.0-preview.1
-    - 1.5.0-preview.2
-    - 1.5.0-preview.3
-    - 1.5.0-preview.4
-    - 1.5.0-preview.5
-    - 1.5.0-preview.6
-    - 1.5.0-preview.7
-    - 1.5.0-preview.8
-    - 1.5.0-preview.10
-    - 1.5.0-preview.11
-    - 1.5.0-preview.12
-    - 1.5.0-preview.13
-    - 1.5.0-preview.14
-    - 1.5.0
-    - 1.5.1
-    - 1.5.3
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6
-    - 1.6.0-preview.1
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.1
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.0-preview.3
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0-preview.7
-    - 2.1.0-preview.8
-    - 2.1.0-preview.10
-    - 2.1.0-preview.11
-    - 2.1.0-preview.12
-    - 2.1.0-preview.13
-    - 2.1.0-preview.14
-    - 2.1.0
-    - 2.1.1
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.2.0-preview.1
-    - 2.2.0-preview.2
-    - 2.2.0-preview.3
-    - 3.0.0-preview.1
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.0-preview.5
-    - 3.0.0-preview.7
-    - 3.0.0-preview.8
-    - 3.0.0-preview.10
-    - 3.0.0-preview.11
-    - 3.0.0-preview.12
-    - 3.0.0-preview.13
-    - 3.0.0-preview.14
-    - 3.0.0
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.0.8
-    - 3.0.9
-    - 3.2.0-pre.1
-    - 3.2.0-pre.2
-    - 3.2.0-pre.3
-    - 3.2.0-pre.4
-    - 3.2.0-pre.5
-    - 3.2.0-pre.6
-    - 3.2.0-pre.7
-    - 3.2.0-pre.8
-    - 3.2.0-pre.9
-    - 3.2.0-pre.10
-    - 3.2.0-pre.11
-    - 3.2.0-pre.12
-    - 3.2.0-pre.13
-    - 3.2.0-pre.14
-    - 3.2.0-pre.15
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    compatible:
-    - 3.0.7
-    - 3.0.8
-    - 3.0.9
-    - 3.2.0-pre.1
-    - 3.2.0-pre.2
-    - 3.2.0-pre.3
-    - 3.2.0-pre.4
-    - 3.2.0-pre.5
-    - 3.2.0-pre.6
-    - 3.2.0-pre.7
-    - 3.2.0-pre.8
-    - 3.2.0-pre.9
-    - 3.2.0-pre.10
-    - 3.2.0-pre.11
-    - 3.2.0-pre.12
-    - 3.2.0-pre.13
-    - 3.2.0-pre.14
-    - 3.2.0-pre.15
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    recommended: 3.0.9
-    deprecated: []
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  keywords:
-  - TextMeshPro
-  - TextMesh Pro
-  - TMP
-  - Text
-  - SDF
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638410382150000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 5c364f204e10eaec84fcbff640ad4d833774c1ed
-    path: 
-  unityLifecycle:
-    version: 3.0.7
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.timeline@1.7.7
-  testable: 0
-  isDirectDependency: 1
-  version: 1.7.7
-  source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.timeline@1.7.7
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.timeline@3a22918286f5"
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -724,7 +785,6 @@ m_ResolvedPackages:
   type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
-  status: 0
   errors: []
   versions:
     all:
@@ -822,21 +882,8 @@ m_ResolvedPackages:
     - 1.8.12
     - 1.8.13
     compatible:
-    - 1.7.7
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
-    - 1.8.4
-    - 1.8.5
-    - 1.8.6
-    - 1.8.7
-    - 1.8.8
-    - 1.8.9
-    - 1.8.10
-    - 1.8.11
-    - 1.8.12
-    recommended: 1.7.7
+    - 1.8.13
+    recommended: 1.8.13
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -870,59 +917,98 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638767785867400000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
+  datePublishedTicks: 639221498485530000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 36c3480685dcb744f098f1a1efe0623247ffab49
+    revision: 7212b974a58951dfb2fe3dd5e0e85fa25eda823f
     path: 
   unityLifecycle:
-    version: 1.7.7
+    version: 1.8.13
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.ugui@1.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n- Fix Track label name overflows when
+    longer than available space. (UUM-130891)\n- Fixed an issue where the Timeline
+    window would try to perform operations on an invalid cached Playable. (UUM-141748)\n-
+    Fix performance regression in Custom Clip PlayableAsset Inspector where animated
+    parameters with parent properties (nested fields) caused Timeline Window to refresh
+    when scrubbing or playing the Timeline. (UUM-141805)\n- Fixed warnings logged
+    for DocCodeExamples track types when the Timeline package is embedded in the
+    Packages folder. ([UUM-142491](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-142491))\n-
+    Fixed an issue where Timeline context menus would not handle ''/'' characters
+    correctly when they were present in DisplayName attributes on tracks. ([UUM-144547](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-144547))\n-
+    Fixed an issue where Timeline context menus would not handle DisplayName attributes
+    that started with a ''/'' correctly. ([UUM-144548](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-144548))\n-
+    Fixed errors being thrown when entering Play Mode in the Timeline Customization
+    Samples in projects that use the Input System package. ([UUM-148499](https://jira.unity3d.com/browse/UUM-148499))"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 3a22918286f51d73dd374b3f8051050ab2ab08ac
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.8.13
+    minimumUnityVersion: 6000.0
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 2.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.ugui@27635d171b1a"
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
-  displayName: Unity UI
+  displayName: uGUI
   author:
     name: 
     email: 
     url: 
   category: 
   type: 
-  description: "Unity UI is a set of tools for developing user interfaces for games
-    and applications. It is a GameObject-based UI system that uses Components and
-    the Game View to arrange, position, and style user interfaces. \u200B You cannot
-    use Unity UI to create or change user interfaces in the Unity Editor."
-  status: 0
+  description: "uGUI (Unity UI) is a set of tools for developing user interfaces
+    for games and applications. It is a GameObject-based UI system that uses Components
+    and the Game View to arrange, position, and style user interfaces. \u200B You
+    cannot use Unity UI to create or change user interfaces in the Unity Editor."
   errors: []
   versions:
     all:
-    - 1.0.0
-    - 3.0.0-exp.1
-    - 3.0.0-exp.3
-    - 3.0.0-exp.4
+    - 2.0.0
     compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated:
-    - 3.0.0-exp.1
-    - 3.0.0-exp.3
-    - 3.0.0-exp.4
+    - 2.0.0
+    recommended: 2.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -938,6 +1024,11 @@ m_ResolvedPackages:
   - ugui
   - Unity UI
   - Canvas
+  - TextMeshPro
+  - TextMesh Pro
+  - Text
+  - TMP
+  - SDF
   registry:
     id: main
     name: 
@@ -946,7 +1037,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -957,20 +1053,48 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 2.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.visualscripting@1.9.4
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 27635d171b1ab7c244ef67aa22f59c4fbb4e52f9
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.0
+    minimumUnityVersion: 2019.2
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.visualscripting@1.9.12
   testable: 0
   isDirectDependency: 1
-  version: 1.9.4
+  version: 1.9.12
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.visualscripting@1.9.4
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.visualscripting@4edfcc09512f"
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -979,7 +1103,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -992,7 +1116,6 @@ m_ResolvedPackages:
 
     Visual scripting is compatible with third-party
     APIs, including most packages, assets and custom libraries.'
-  status: 0
   errors: []
   versions:
     all:
@@ -1026,25 +1149,18 @@ m_ResolvedPackages:
     - 1.9.11
     - 1.9.12
     compatible:
-    - 1.9.4
-    - 1.9.5
-    - 1.9.6
-    - 1.9.7
-    - 1.9.8
-    - 1.9.9
-    - 1.9.10
-    - 1.9.11
-    recommended: 1.9.11
+    - 1.9.12
+    recommended: 1.9.12
     deprecated:
     - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
@@ -1060,31 +1176,251 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638488567680000000
-  documentationUrl: 
+  datePublishedTicks: 639202441086160000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.visualscripting@1.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 41aac2b7038c2b1259c546329890d3736ce2394e
+    revision: c48fbffda45c8651be75bab8fb3e25a835e12ef2
     path: 
   unityLifecycle:
-    version: 1.9.4
+    version: 1.9.12
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- Added resets for static variables via
+    `[RuntimeInitializeOnLoadMethod]` to support Fast Enter Play Mode.\n### Fixed\n-
+    Fixed a bug where changes to graph connections in Play Mode were not being listened
+    to by the graph. [UUM-130106](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-130106)\n-
+    Fixed an OverflowException thrown when regenerating nodes for methods whose `ulong`
+    parameters have default values exceeding `Int64.MaxValue`. [UUM-130107](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-130107)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 4edfcc09512f786fe1a7f50476d320b36dab9676
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.9.12
+    minimumUnityVersion: 6000.0
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.accessibility@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.accessibility"
+  assetPath: Packages/com.unity.modules.accessibility
+  name: com.unity.modules.accessibility
+  displayName: Accessibility
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The Accessibility module includes APIs and tools that facilitate
+    the development of accessible user experiences in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AccessibilityModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.adaptiveperformance@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.adaptiveperformance"
+  assetPath: Packages/com.unity.modules.adaptiveperformance
+  name: com.unity.modules.adaptiveperformance
+  displayName: Adaptive Performance
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'Adaptive Performance is a built-in module that allows users to adjust
+    settings based on performance metrics. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AdaptivePerformanceModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.ai"
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1096,7 +1432,6 @@ m_ResolvedPackages:
   type: module
   description: 'The AI module implements the path finding features in Unity. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1116,7 +1451,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1132,15 +1472,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.androidjni"
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1151,7 +1519,6 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1171,7 +1538,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1187,15 +1559,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.animation"
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1207,7 +1607,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Animation module implements Unity''s animation system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AnimationModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1227,7 +1626,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1243,15 +1647,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.assetbundle"
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1263,7 +1695,6 @@ m_ResolvedPackages:
   type: module
   description: 'The AssetBundle module implements the AssetBundle class and related
     APIs to load data from AssetBundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AssetBundleModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1283,7 +1714,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1299,15 +1735,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.audio"
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1319,7 +1783,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Audio module implements Unity''s audio system. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.AudioModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1339,7 +1802,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1355,15 +1823,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.cloth"
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1375,7 +1871,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Cloth module implements cloth physics simulation through the
     Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1399,7 +1894,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1415,15 +1915,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.director"
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1435,7 +1963,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Director module implements the PlayableDirector class. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.DirectorModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1463,7 +1990,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1479,15 +2011,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.imageconversion"
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1498,9 +2058,7 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The ImageConversion module implements the ImageConversion class which
-    provides helper methods to convert images from and to PNG, JPEG or EXR formats.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
-  status: 0
+    provides helper methods for converting image data. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
   errors: []
   versions:
     all:
@@ -1520,7 +2078,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1536,15 +2099,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.imgui"
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1556,7 +2147,6 @@ m_ResolvedPackages:
   type: module
   description: 'The IMGUI module provides Unity''s immediate mode GUI solution for
     creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1576,7 +2166,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1592,15 +2187,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.jsonserialize"
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1612,7 +2235,6 @@ m_ResolvedPackages:
   type: module
   description: 'The JSONSerialize module provides the JsonUtility class which lets
     you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1632,7 +2254,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1648,15 +2275,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.particlesystem"
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1668,7 +2323,6 @@ m_ResolvedPackages:
   type: module
   description: 'The ParticleSystem module implements Unity''s Particle System. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1688,7 +2342,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1704,15 +2363,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.physics"
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1724,7 +2411,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics module implements 3D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1744,7 +2430,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1760,15 +2451,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.physics2d"
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1780,7 +2499,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics2d module implements 2D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.Physics2DModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1800,7 +2518,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1816,15 +2539,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.screencapture"
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1836,7 +2587,6 @@ m_ResolvedPackages:
   type: module
   description: 'The ScreenCapture module provides functionality to take screen shots
     using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1860,7 +2610,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1876,15 +2631,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.terrain"
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1896,7 +2679,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Terrain module implements Unity''s Terrain rendering engine available
     through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1916,7 +2698,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1932,15 +2719,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.terrainphysics"
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1952,7 +2767,6 @@ m_ResolvedPackages:
   type: module
   description: 'The TerrainPhysics module connects the Terrain and Physics modules
     by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1980,7 +2794,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1996,15 +2815,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.tilemap"
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2015,7 +2862,6 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The Tilemap module implements the Tilemap class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2039,7 +2885,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2055,15 +2906,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.ui"
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2075,7 +2954,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UI module implements basic components required for Unity''s UI
     system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2095,7 +2973,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2111,15 +2994,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.uielements"
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2131,7 +3042,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UIElements module implements the UIElements retained mode UI
     framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2147,12 +3057,20 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
     version: 1.0.0
   keywords: []
   registry:
@@ -2163,7 +3081,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2179,15 +3102,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.umbra"
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2199,7 +3150,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Umbra module implements Unity''s occlusion culling system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2219,7 +3169,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2235,15 +3190,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.unityanalytics"
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2253,9 +3236,7 @@ m_ResolvedPackages:
     url: 
   category: 
   type: module
-  description: 'The UnityAnalytics module implements APIs required to use Unity Analytics.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityAnalyticsModule.html'
-  status: 0
+  description: 
   errors: []
   versions:
     all:
@@ -2283,7 +3264,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2299,15 +3285,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.unitywebrequest"
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2319,7 +3333,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequest module lets you communicate with http services.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2339,7 +3352,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2355,15 +3373,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle"
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2375,7 +3421,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle
     class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2403,7 +3448,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2419,15 +3469,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio"
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2439,7 +3517,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAudio module provides the DownloadHandlerAudioClip
     class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2467,7 +3544,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2483,15 +3565,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture"
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2503,7 +3613,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestTexture module provides the DownloadHandlerTexture
     class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2531,7 +3640,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2547,15 +3661,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww"
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2567,7 +3709,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestWWW module implements the legacy WWW lets you
     communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2611,7 +3752,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2627,15 +3773,150 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.vectorgraphics@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.vectorgraphics"
+  assetPath: Packages/com.unity.modules.vectorgraphics
+  name: com.unity.modules.vectorgraphics
+  displayName: Vector Graphics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.vehicles"
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2647,7 +3928,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Vehicles module implements vehicle physics simulation through
     the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2671,7 +3951,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2687,15 +3972,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.video"
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2707,7 +4020,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Video module lets you play back video files in your content.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VideoModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2739,7 +4051,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2755,15 +4072,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.vr"
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2774,8 +4119,8 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The VR module implements support for virtual reality devices in Unity.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
-  status: 0
+    (This module is obsolete, please use UnityEngine.XRModule instead) Scripting
+    API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
   errors: []
   versions:
     all:
@@ -2809,7 +4154,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2825,15 +4175,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.wind"
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2845,7 +4223,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Wind module implements the WindZone component which can affect
     terrain rendering and particle simulations. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.WindModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2865,7 +4242,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2881,15 +4263,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.xr"
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2901,7 +4311,6 @@ m_ResolvedPackages:
   type: module
   description: 'The XR module contains the VR and AR related platform support functionality.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2933,7 +4342,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2949,15 +4363,43 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.subsystems"
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2969,7 +4411,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Subsystem module contains the definitions and runtime support
     for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2993,7 +4434,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3009,15 +4455,131 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
   fingerprint: 
-- packageId: com.unity.ide.visualstudio@2.0.22
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.hierarchycore@1.0.0
   testable: 0
   isDirectDependency: 0
-  version: 2.0.22
+  version: 1.0.0
+  source: 2
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.modules.hierarchycore"
+  assetPath: Packages/com.unity.modules.hierarchycore
+  name: com.unity.modules.hierarchycore
+  displayName: Hierarchy Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'Module that contains a high-performance hierarchy container. Scripting
+    API: https://docs.unity3d.com/ScriptReference/UnityEngine.HierarchyCoreModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ide.visualstudio@2.0.26
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.26
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.ide.visualstudio@a99d56dec63f"
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3026,11 +4588,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
-  status: 0
   errors: []
   versions:
     all:
@@ -3062,22 +4623,21 @@ m_ResolvedPackages:
     - 2.0.25
     - 2.0.26
     - 2.0.27
+    - 2.0.28
     compatible:
-    - 2.0.22
-    - 2.0.23
-    - 2.0.25
     - 2.0.26
     - 2.0.27
-    recommended: 2.0.27
+    - 2.0.28
+    recommended: 2.0.28
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.1.9
+    version: 1.1.33
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.6.0
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -3091,31 +4651,66 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326061910000000
+  datePublishedTicks: 639014773899080000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 700b44077345e97d37d464ff25507638983aed64
+    revision: a52ff32ff9e8cf43be6597597939ef63126ab463
     path: 
   unityLifecycle:
-    version: 2.0.22
+    version: 2.0.26
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.ide.rider@3.0.36
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"Integration:\n\n- Fix handling of asset-pipeline refresh-mode
+    setting.\n\nProject generation:\n\n- Add `EnableOnDemandExcludedFolderLoading`
+    capability when generating SDK-Style project."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: a99d56dec63ffb3a911a5a9bce9b77ba862a601c
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.26
+    minimumUnityVersion: 2021.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ide.rider@3.0.40
   testable: 0
   isDirectDependency: 0
-  version: 3.0.36
+  version: 3.0.40
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.ide.rider@3.0.36
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.ide.rider@e4950c6d131b"
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3128,7 +4723,6 @@ m_ResolvedPackages:
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
-  status: 0
   errors: []
   versions:
     all:
@@ -3182,12 +4776,10 @@ m_ResolvedPackages:
     - 3.0.38
     - 3.0.39
     - 3.0.40
+    - 3.1.0
     compatible:
-    - 3.0.36
-    - 3.0.37
-    - 3.0.38
-    - 3.0.39
     - 3.0.40
+    - 3.1.0
     recommended: 3.0.40
     deprecated:
     - 3.0.37
@@ -3196,7 +4788,7 @@ m_ResolvedPackages:
     version: 1.0.6
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   keywords: []
   registry:
     id: main
@@ -3206,100 +4798,65 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638799562419060000
+  datePublishedTicks: 639117612635980000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: b5315083ab3861d21f6ab2ed0d9514daf04bf208
+    revision: ac65c165e102e0e3a75f1448b8578d29ba0eaf58
     path: 
   unityLifecycle:
-    version: 3.0.36
+    version: 3.0.40
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.ide.vscode@1.2.5
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- Normalise paths for additional files for roslyn,
+    fixes RIDER-136169 Roslyn process gets stuck"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: e4950c6d131b925f19dd0b34bdf800110120f8de
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.0.40
+    minimumUnityVersion: 2021.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.editorcoroutines@1.1.0
   testable: 0
   isDirectDependency: 0
-  version: 1.2.5
+  version: 1.1.0
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.ide.vscode@1.2.5
-  assetPath: Packages/com.unity.ide.vscode
-  name: com.unity.ide.vscode
-  displayName: Visual Studio Code Editor
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: Code editor integration for supporting Visual Studio Code as code
-    editor for unity. Adds support for generating csproj files for intellisense purposes,
-    auto discovery of installations, etc.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.2
-    - 1.0.3
-    - 1.0.7
-    - 1.1.0
-    - 1.1.2
-    - 1.1.3
-    - 1.1.4
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.2.5
-    compatible:
-    - 1.2.5
-    recommended: 1.2.5
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637800255360000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-    revision: b0740c80bfc2440527c317109f7c3d9100132722
-    path: 
-  unityLifecycle:
-    version: 1.2.5
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.editorcoroutines@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.editorcoroutines@87a15ed012c2"
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3308,11 +4865,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'The editor coroutines package allows developers to start constructs
-    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
+    similar to Unity''s monobehaviour based coroutines within the editor using arbitrary
     objects. '
-  status: 0
   errors: []
   versions:
     all:
@@ -3326,10 +4882,8 @@ m_ResolvedPackages:
     - 1.0.1
     - 1.1.0
     compatible:
-    - 1.0.0
-    - 1.0.1
     - 1.1.0
-    recommended: 1.0.1
+    recommended: 1.1.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3345,31 +4899,68 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637232611380000000
-  documentationUrl: 
+  datePublishedTicks: 639107374596640000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.editorcoroutines@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
-    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
+    revision: fe3477fa8c73dfd5e2e03a4960fff28d1b2c7cf1
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 1.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.performance.profile-analyzer@1.2.3
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n - Fixed an issue with nested coroutines
+    where unsubscribing from inside a coroutine could thow a NullReferenceException,
+    case [UUM-122753](https://issuetracker.unity3d.com/issues/the-coroutine-still-executes-for-one-frame-and-throws-a-nullreferenceexception-when-its-stopped-from-editorapplication-dot-update).\n
+    - Improved documentation for the EditorCoroutine class.\n - Increased the minimum
+    Unity version required to 2022LTS."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 87a15ed012c21ed5d88f4ba868a5b1948294627b
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.1.0
+    minimumUnityVersion: 2022.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.performance.profile-analyzer@1.4.0
   testable: 0
   isDirectDependency: 0
-  version: 1.2.3
+  version: 1.4.0
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.3
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.performance.profile-analyzer@2bb26871883c"
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3384,7 +4975,6 @@ m_ResolvedPackages:
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
     set of Profiler CPU data \n\u25AA Comparison of two multi-frame profile scans
     \n\n"
-  status: 0
   errors: []
   versions:
     all:
@@ -3410,16 +5000,13 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.4.0
+    - 1.4.1
+    - 1.4.2
     compatible:
-    - 1.2.3
-    - 1.2.4
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
     - 1.4.0
-    recommended: 1.2.4
+    - 1.4.1
+    - 1.4.2
+    recommended: 1.4.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3432,31 +5019,71 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638699545898200000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
+  datePublishedTicks: 639162617195790000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 835e61d94bd201d0dea5763dff75e86b6b61de29
+    revision: 63d3e56aef5172cb0785708588d5224d3d589ddd
     path: 
   unityLifecycle:
-    version: 1.2.3
+    version: 1.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.test-framework@1.1.33
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n* Added GC allocation analysis: per-marker
+    and per-frame GC allocation byte statistics, new Frame GC Allocation Summary
+    and Marker GC Allocation Summary panels, a **GC Allocations** marker columns
+    preset, and additional CSV export columns. Bumps the .pdata file format to Version
+    9.\n\n### Changed\n* Migrated editor analytics to the `IAnalytic` API on 2023.2
+    and newer, while retaining the legacy API on earlier editors. Events and reported
+    data are unchanged.\n\n### Fixed\n* Fix for UUM-139769 - The \"Depth Slice\"
+    title is clipped to \"D...\" when the Depth Slice dropdown is opened."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 2bb26871883cb458a0c6e6b4ca416e96786f8836
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.4.0
+    minimumUnityVersion: 2021.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.test-framework@1.6.0
   testable: 0
   isDirectDependency: 0
-  version: 1.1.33
-  source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.test-framework@1.1.33
+  version: 1.6.0
+  source: 2
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.test-framework@bd7f943e9647"
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3465,100 +5092,26 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: asset
+  type: 
   description: Test framework for running Edit mode and Play mode tests in Unity.
-  status: 0
   errors: []
   versions:
     all:
-    - 0.0.4-preview
-    - 0.0.29-preview
-    - 1.0.0
-    - 1.0.7
-    - 1.0.9
-    - 1.0.11
-    - 1.0.12
-    - 1.0.13
-    - 1.0.14
-    - 1.0.16
-    - 1.0.17
-    - 1.0.18
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3
-    - 1.1.5
-    - 1.1.8
-    - 1.1.9
-    - 1.1.11
-    - 1.1.13
-    - 1.1.14
-    - 1.1.16
-    - 1.1.18
-    - 1.1.19
-    - 1.1.20
-    - 1.1.22
-    - 1.1.24
-    - 1.1.26
-    - 1.1.27
-    - 1.1.29
-    - 1.1.30
-    - 1.1.31
-    - 1.1.33
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
-    - 1.4.5
-    - 1.4.6
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
+    - 1.6.0
     compatible:
-    - 1.1.33
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
-    - 1.4.5
-    - 1.4.6
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
-    recommended: 1.1.33
+    - 1.6.0
+    recommended: 1.6.0
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.3
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -3574,31 +5127,64 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637938212700000000
+  datePublishedTicks: 0
   documentationUrl: 
-  hasRepository: 1
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 1.1.33
+    version: 1.6.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.testtools.codecoverage@1.2.6
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: bd7f943e964734fe159ef03827ee64a0ab725741
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.6.0
+    minimumUnityVersion: 6000.0.44f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.testtools.codecoverage@1.3.0
   testable: 0
   isDirectDependency: 0
-  version: 1.2.6
+  version: 1.3.0
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.testtools.codecoverage@19a841221620"
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3607,12 +5193,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
     when there are no automated tests in the project.
-  status: 0
   errors: []
   versions:
     all:
@@ -3651,27 +5236,25 @@ m_ResolvedPackages:
     - 1.2.7
     - 1.3.0
     compatible:
-    - 1.2.6
-    - 1.2.7
     - 1.3.0
-    recommended: 1.2.7
+    recommended: 1.3.0
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.0.16
+    version: 1.4.5
   - name: com.unity.settings-manager
-    version: 1.0.1
+    version: 2.0.0
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.6.0
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.settings-manager
-    version: 2.1.0
+    version: 2.1.1
   keywords:
   - test
   - coverage
@@ -3685,31 +5268,87 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638575857900000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
+  datePublishedTicks: 639045470066020000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: 959db8ff97eedf9b211ad5cf320b87ac01f1e90f
+    revision: f588d79b844a1f4a1cead85842bdf64782dd741a
     path: 
   unityLifecycle:
-    version: 1.2.6
+    version: 1.3.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.settings-manager@2.1.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixes\n\n- Fixed the filtering and reporting of
+    package''s paths that were reported relative to the current project instead of
+    absolute.\n- Fixed a NullReferenceException that could occur while computing
+    cyclomatic complexity.\n- Fixed references to the deprecated EditorAnalytics
+    methods for release streams from 6000.0 or newer (case [COV-44](https://issuetracker.unity3d.com/issues/sample-editoranalytics-warning-when-enabilg-code-coverage-in-the-sample-project))\n-
+    Fixed playmode tests failing in the _Asteroids sample project_ (case [COV-54](https://issuetracker.unity3d.com/issues/multiple-tests-are-failing-in-the-code-coverage-sample-asteroids-project))\n-
+    Fixed pink materials to be rendered for URP in _Asteroids sample project_\n-
+    Updated the Input System in _Asteroids sample project_ to use the new Input System
+    package instead of the legacy one (case [COV-52](https://issuetracker.unity3d.com/issues/asteroids-sample-project-is-not-updated-for-the-new-unity-streams))\n-
+    Fixed _assembliesInclude_/_assembliesExclude_ parsing in `filtersFromFile` when
+    running in the command line in `non-batchmode`\n\n### Changes\n\n- Raised the
+    minimum supported Unity version for the Code Coverage package to 2021.3 and updated
+    the codebase to align with this new dependency.\n- Updated dependency packages
+    versions: `com.unity.test-framework` to v1.4.5 and `com.unity.settings-manager`
+    to v2.0.0.\n- The entries in the `pathFilters` option in _-coverageOptions_ are
+    now processed in order so a subset path can be included even if the parent path
+    is excluded. Previously all exclusions were processed before any inclusions.\n-
+    Removed the `CoverageFormat` class, as there are currently no plans to support
+    any other raw coverage formats other than OpenCover.\n\n### Improvements\n\n-
+    Reduced the needed time to apply path filtering during the report generation.\n-
+    Migrated Mono APIs to CoreCLR-compatible APIs.\n- Documentation: Added a note
+    about the Input System package dependency in the [Code Coverage tutorial](https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.3/manual/Quickstart.html)
+    page.\n- Documentation: Fixed broken links in the [Code Coverage tutorial](https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.3/manual/Quickstart.html)
+    page."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 19a8412216200955baa50132d98cb9fe4770e401
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.3.0
+    minimumUnityVersion: 2021.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.settings-manager@2.1.1
   testable: 0
   isDirectDependency: 0
-  version: 2.1.0
+  version: 2.1.1
   source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.settings-manager@2.1.0
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.settings-manager@0b8638c5ce86"
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -3721,7 +5360,6 @@ m_ResolvedPackages:
   type: 
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
-  status: 0
   errors: []
   versions:
     all:
@@ -3736,7 +5374,6 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.1.1
     compatible:
-    - 2.1.0
     - 2.1.1
     recommended: 2.1.1
     deprecated: []
@@ -3751,9 +5388,14 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638792046006940000
+  datePublishedTicks: 638956174685890000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
   hasRepository: 1
   repository:
@@ -3762,20 +5404,50 @@ m_ResolvedPackages:
     revision: 6eb5ed85eaf3276cc09f0cc4fc3311c72f0fc196
     path: 
   unityLifecycle:
-    version: 2.1.0
+    version: 2.1.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.ext.nunit@1.0.6
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changes\n\n- Enable Auto Reference on main assembly.\n\n###
+    Bug Fixes\n\n- [case: PBLD-56] Added tooltip to \"Options\" gear icon to specify
+    that context menu items are relevant only to the selected category."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 0b8638c5ce86009d785da17b17aaf629047f64ce
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.1.1
+    minimumUnityVersion: 2022.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
-  version: 1.0.6
-  source: 1
-  resolvedPath: D:\GitHub\-indie-horror\Not_Human_Madness\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  version: 2.0.5
+  source: 2
+  resolvedPath: "C:\\\u041D\u0430\u0437\u0430\u0440\u043E\u0432 \u041F\u0430\u0432\u0435\u043B\\-indie-horror\\Not_Human_Madness\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d"
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3784,30 +5456,16 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: asset
-  description: Custom version of the nunit package build to work with Unity. Used
-    by the Unity Test Framework.
-  status: 0
+  type: 
+  description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
+    version 3.5 and works with all platforms, il2cpp and Mono AOT.
   errors: []
   versions:
     all:
-    - 0.1.5-preview
-    - 0.1.6-preview
-    - 0.1.9-preview
-    - 1.0.0
-    - 1.0.5
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
     - 2.0.5
     compatible:
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
     - 2.0.5
-    recommended: 1.0.6
+    recommended: 2.0.5
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3823,23 +5481,56 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637429759280000000
-  documentationUrl: 
-  hasRepository: 1
+  datePublishedTicks: 0
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-    revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 1.0.6
+    version: 2.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
-  fingerprint: 
-m_BuiltInPackagesHash: 589add9c3ae0bc06545f5c61253b1928f3e64fad
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: d8c07649098d3936da4c8ab500960c1776b44592
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.5
+    minimumUnityVersion: 2019.4
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+m_BuiltInPackagesHash: 6643d337008523580a72cac019f084ade8fc28a9

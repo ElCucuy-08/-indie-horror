@@ -285,8 +285,10 @@ m_ResolvedPackages:
     - 2.13.4
     - 2.13.5
     - 2.13.6
+    - 2.14.0
     compatible:
     - 2.13.6
+    - 2.14.0
     recommended: 2.13.6
     deprecated: []
   dependencies: []

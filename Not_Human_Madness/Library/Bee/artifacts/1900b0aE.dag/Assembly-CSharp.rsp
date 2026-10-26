@@ -532,6 +532,7 @@
 "Assets/Assets/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs"
 "Assets/Assets/Standard Assets/Vehicles/Car/Scripts/Suspension.cs"
 "Assets/Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs"
+"Assets/Ivent/Inventory.cs"
 -langversion:9.0
 /deterministic
 /optimize+

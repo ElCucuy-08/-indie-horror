@@ -822,8 +822,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Not_Human_Madness
-  metroPackageVersion: 
+  metroPackageName: NotHumanMadness
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -831,7 +831,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Not_Human_Madness
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Not_Human_Madness
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -899,7 +899,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 260011e1-51ec-4819-963f-75e5b70ebf0e
   framebufferDepthMemorylessMode: 0

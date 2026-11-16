@@ -544,6 +544,10 @@
 "Assets/Assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs"
 "Assets/Assets/Горы/Script/Camera/CameraControl.cs"
 "Assets/Assets/Горы/Script/Camera/FlyCameraControl.cs"
+"Assets/Scripts/Death.cs"
+"Assets/Scripts/Enemy.cs"
+"Assets/Scripts/HP_Bar.cs"
+"Assets/Scripts/Predmets.cs"
 -langversion:9.0
 /deterministic
 /optimize+

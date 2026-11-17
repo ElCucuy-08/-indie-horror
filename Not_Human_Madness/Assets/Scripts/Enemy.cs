@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.AI;
 public class Enemy : MonoBehaviour
@@ -5,6 +6,7 @@ public class Enemy : MonoBehaviour
     NavMeshAgent agent;
     Transform player;
     Vector3 playerCorrectPosition = Vector3.zero;
+    [SerializeField] public float Radios = 5f;
 
     private void Start()
     {
@@ -16,7 +18,7 @@ public class Enemy : MonoBehaviour
         playerCorrectPosition.y = transform.position.y;
         transform.LookAt(playerCorrectPosition);
 
-        if (Vector3.Distance(playerCorrectPosition, transform.position) > 1.5)
+        if (Vector3.Distance(playerCorrectPosition, transform.position) < Radios)
         {
             transform.position = Vector3.MoveTowards(transform.position, playerCorrectPosition, Time.deltaTime * 8);
         } 
@@ -36,6 +38,14 @@ public class Enemy : MonoBehaviour
             GetComponent<Animator>().SetBool("Attack", true);
         }
     }
+    //private void Walk()
+    //{
+    //    float distance = Vector3.Distance(player.position, transform.position);
+    //    if (distance <= Radios)
+    //    {
+            
+    //    }
+    //}
     //private void OnTriggerEnter(Collider other)
     //{
     //    if (other.CompareTag("Player"))
